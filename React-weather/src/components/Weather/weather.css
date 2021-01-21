@@ -1,0 +1,66 @@
+.weather__days {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.number {
+    font-weight: bold;
+}
+
+.title-now {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.temperature-now {
+    font-size: 48px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.info-now {
+    margin-right: 20px;
+}
+
+.day3__card {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-3days {
+    margin-right: 20px;
+}
+
+.temperature-3days {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.info-3days {
+    margin-bottom: 10px;
+}
+
+.title-5days {
+    margin-bottom: 8px;
+}
+
+.subtitle-5days {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.temperature-5days {
+    font-weight: bold;
+    font-size: 16px;
+}
